@@ -1,0 +1,437 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+    <env:Body>
+        <wd:Get_Candidates_Response xmlns:wd="urn:com.workday/bsvc" wd:version="v40.0">
+            <wd:Request_Criteria>
+                <wd:Candidate_Email_Address>david.delgado@workday.net</wd:Candidate_Email_Address>
+            </wd:Request_Criteria>
+            <wd:Response_Results>
+                <wd:Total_Results>1</wd:Total_Results>
+                <wd:Total_Pages>1</wd:Total_Pages>
+                <wd:Page_Results>1</wd:Page_Results>
+                <wd:Page>1</wd:Page>
+            </wd:Response_Results>
+            <wd:Response_Data>
+                <wd:Candidate>
+                    <wd:Candidate_Reference>
+                        <wd:ID wd:type="WID">739658cafb46900fb26e6741ccdf1ad7</wd:ID>
+                        <wd:ID wd:type="Candidate_ID">CAND-1002</wd:ID>
+                    </wd:Candidate_Reference>
+                    <wd:Candidate_Data>
+                        <wd:Candidate_ID>CAND-1002</wd:Candidate_ID>
+                        <wd:Name_Data>
+                            <wd:Legal_Name>
+                                <wd:Name_Detail_Data>
+                                    <wd:First_Name>David</wd:First_Name>
+                                    <wd:Last_Name>Delgado</wd:Last_Name>
+                                </wd:Name_Detail_Data>
+                            </wd:Legal_Name>
+                        </wd:Name_Data>
+                        <wd:Contact_Data>
+                            <wd:Phone_Device_Type_Reference>
+                                <wd:ID wd:type="WID">d691375437c848aea9d5b0874353bfd7</wd:ID>
+                                <wd:ID wd:type="Phone_Device_Type_ID">Mobile</wd:ID>
+                            </wd:Phone_Device_Type_Reference>
+                            <wd:Country_Phone_Code_Reference>
+                                <wd:ID wd:type="WID">db8d5e3e446c11de98360015c5e6daf6</wd:ID>
+                                <wd:ID wd:type="Country_Phone_Code_ID">GBR_44</wd:ID>
+                            </wd:Country_Phone_Code_Reference>
+                            <wd:Phone_Number>2074343111</wd:Phone_Number>
+                            <wd:Email_Address>david.delgado@workday.net</wd:Email_Address>
+                            <wd:Website_Data>
+                                <wd:URL_Address>http://www.google.com</wd:URL_Address>
+                            </wd:Website_Data>
+                            <wd:Website_Data>
+                                <wd:URL_Address>http://www.workday.com</wd:URL_Address>
+                            </wd:Website_Data>
+                            <wd:Location_Data>
+                                <wd:Country_Reference>
+                                    <wd:ID wd:type="WID">29247e57dbaf46fb855b224e03170bc7</wd:ID>
+                                    <wd:ID wd:type="ISO_3166-1_Alpha-2_Code">GB</wd:ID>
+                                    <wd:ID wd:type="ISO_3166-1_Alpha-3_Code">GBR</wd:ID>
+                                    <wd:ID wd:type="ISO_3166-1_Numeric-3_Code">826</wd:ID>
+                                </wd:Country_Reference>
+                                <wd:Address_Line_1>22 Newlands Avenue, Thames Ditton</wd:Address_Line_1>
+                                <wd:City>Surrey</wd:City>
+                                <wd:Postal_Code>KT7 0HF</wd:Postal_Code>
+                            </wd:Location_Data>
+                        </wd:Contact_Data>
+                        <wd:Social_Media_Account_Data>
+                            <wd:Social_Network_Account_URL>http://www.linkedin.com/pub/ddelgado-workday/5b/183/a93</wd:Social_Network_Account_URL>
+                        </wd:Social_Media_Account_Data>
+                        <wd:Social_Media_Account_Data>
+                            <wd:Social_Network_Account_User_Name>delgado_Workday</wd:Social_Network_Account_User_Name>
+                        </wd:Social_Media_Account_Data>
+                        <wd:Social_Media_Account_Data>
+                            <wd:Social_Network_Account_URL>http://www.facebook.com/ddelgadoWorkday</wd:Social_Network_Account_URL>
+                        </wd:Social_Media_Account_Data>
+                        <wd:Status_Data>
+                            <wd:Do_Not_Hire>0</wd:Do_Not_Hire>
+                            <wd:Withdrawn>0</wd:Withdrawn>
+                        </wd:Status_Data>
+                        <wd:Job_Application_Data>
+                            <wd:Job_Application_Reference>
+                                <wd:ID wd:type="WID">8828a848962481e36350c51bfd548b74</wd:ID>
+                                <wd:ID wd:type="Job_Application_ID">JOB_APPLICATION-11-372</wd:ID>
+                            </wd:Job_Application_Reference>
+                            <wd:Job_Applied_To_Data>
+                                <wd:Job_Application_ID>JOB_APPLICATION-11-372</wd:Job_Application_ID>
+                                <wd:Job_Requisition_Reference>
+                                    <wd:ID wd:type="WID">739658cafb46100faf32e58c94e71a9c</wd:ID>
+                                    <wd:ID wd:type="Job_Requisition_ID">R-00044</wd:ID>
+                                </wd:Job_Requisition_Reference>
+                                <wd:Job_Application_Date>2021-02-23T13:29:14.874-08:00</wd:Job_Application_Date>
+                                <wd:Stage_Reference>
+                                    <wd:ID wd:type="WID">2d0e4a68825d4d2a8c507af7542d3f15</wd:ID>
+                                    <wd:ID wd:type="Recruiting_Stage_ID">SCREEN</wd:ID>
+                                </wd:Stage_Reference>
+                                <wd:Workflow_Step_Reference>
+                                    <wd:ID wd:type="WID">1944fad761171017be192c64b8623056</wd:ID>
+                                    <wd:ID wd:type="Workflow_Step_ID">Job_Application_for_Global_Modern_Services_step_a_Action_Screen_from_Screen</wd:ID>
+                                </wd:Workflow_Step_Reference>
+                                <wd:Status_Timestamp>2021-10-29T15:27:09.683-07:00</wd:Status_Timestamp>
+                                <wd:Source_Reference>
+                                    <wd:ID wd:type="WID">58ec81dd9b89106683eca5c412210394</wd:ID>
+                                    <wd:ID wd:type="Applicant_Source_ID">Conference</wd:ID>
+                                </wd:Source_Reference>
+                                <wd:Added_By_Worker_Reference>
+                                    <wd:ID wd:type="WID">3aa5550b7fe348b98d7b5741afc65534</wd:ID>
+                                    <wd:ID wd:type="Employee_ID">21001</wd:ID>
+                                </wd:Added_By_Worker_Reference>
+                            </wd:Job_Applied_To_Data>
+                            <wd:Resume_Data>
+                                <wd:Summary>A senior, commercially aware, international HR generalist with strategic and operational responsibility for the full spectrum of HR activity. Exceptional planning and delivery skills. A track record of delivering through ensuring HR
+strategy and plans are aligned with business priorities. Strong interpersonal and influencing skills combined with
+and an energetic, “can do” attitude.</wd:Summary>
+                                <wd:Skill_Data>
+                                    <wd:Skill_Name>Leadership</wd:Skill_Name>
+                                </wd:Skill_Data>
+                                <wd:Skill_Data>
+                                    <wd:Skill_Name>HR Policies</wd:Skill_Name>
+                                </wd:Skill_Data>
+                                <wd:Skill_Data>
+                                    <wd:Skill_Name>HR Leadership</wd:Skill_Name>
+                                </wd:Skill_Data>
+                                <wd:Skill_Data>
+                                    <wd:Skill_Name>Compensation &amp; Benefits Programs</wd:Skill_Name>
+                                </wd:Skill_Data>
+                                <wd:Skill_Data>
+                                    <wd:Skill_Name>Workforce Planning</wd:Skill_Name>
+                                </wd:Skill_Data>
+                                <wd:Skill_Data>
+                                    <wd:Skill_Name>Management</wd:Skill_Name>
+                                </wd:Skill_Data>
+                                <wd:Experience_Data>
+                                    <wd:Company_Reference>
+                                        <wd:ID wd:type="WID">739658cafb46100fb22a526e59cf1ac2</wd:ID>
+                                        <wd:ID wd:type="Job_History_Company_ID">JOB_HISTORY_COMPANY-16-160</wd:ID>
+                                    </wd:Company_Reference>
+                                    <wd:Company_Name>Unilever</wd:Company_Name>
+                                    <wd:Title>HR Director</wd:Title>
+                                    <wd:Location>Europe, Middle East &amp; Africa</wd:Location>
+                                    <wd:Start_Month>2</wd:Start_Month>
+                                    <wd:Start_Year>2005</wd:Start_Year>
+                                    <wd:End_Month>0</wd:End_Month>
+                                    <wd:End_Year>0</wd:End_Year>
+                                    <wd:Currently_Work_Here>1</wd:Currently_Work_Here>
+                                    <wd:Description>HR Director – Europe, Middle East &amp; Africa, reporting to HR leader for the Global Field Organisation
+
+•	As part of the EMEA Leadership Team, responsible for the formulation of business strategy and execution of business plans.
+•	Created the 2014-17 People Plan.
+•	Drove the delivery of a comprehensive HR service (organisation design, recruitment, induction, training, development, performance management, engagement, reward, etc.) across 17 countries. 
+•	Part of the working party that has reviewed and improved key HR processes e.g. learning and development needs analysis and fulfilment, performance appraisal, succession planning, high performance/high potential programs, etc.
+•	Recommended and implemented a new “cadence” for EMEA Leadership Team meetings and interactions.
+•	Designed and introduced a sales performance management process designed to maximise productivity.
+•	Deployed a high performance team assessment program.
+•	Created and introduced a global accelerated onboarding program for senior executives.</wd:Description>
+                                </wd:Experience_Data>
+                                <wd:Experience_Data>
+                                    <wd:Company_Reference>
+                                        <wd:ID wd:type="WID">739658cafb46100fb23cfc0147bf1ad0</wd:ID>
+                                        <wd:ID wd:type="Job_History_Company_ID">JOB_HISTORY_COMPANY-16-161</wd:ID>
+                                    </wd:Company_Reference>
+                                    <wd:Company_Name>BlueCrest Capital Management, LLP</wd:Company_Name>
+                                    <wd:Title>Group HR Director</wd:Title>
+                                    <wd:Location>Madrid, Spain</wd:Location>
+                                    <wd:Start_Month>11</wd:Start_Month>
+                                    <wd:Start_Year>2001</wd:Start_Year>
+                                    <wd:End_Month>12</wd:End_Month>
+                                    <wd:End_Year>2004</wd:End_Year>
+                                    <wd:Currently_Work_Here>0</wd:Currently_Work_Here>
+                                    <wd:Description>Group HR Director, reporting to Deputy CEO
+
+•	Recruited to implement comprehensive HR services (organisation design, recruitment, induction, training, development, performance management, engagement, reward, etc.) across the business.
+•	Advisor to the Remuneration Committee. Initiative included a new equity plan for the US, improved benefits coverage to enhance the ability to attract and retain top talent in a hot market, and market competitive executive compensation.
+•	Successfully managed a reorganisation entailing statutory collective consultation with employee representatives. No appeals, no tribunal proceedings.
+•	Project-managed the relocation of the HQ (c380 employees) to a new 50,000 sq ft property. £2.2m budget. Delivered on time and within budget.
+•	Led the HR due diligence in to, and post-acquisition integration of 120 employees. Also led the HR due diligence on two target companies where a “no go” decision was made.
+•	Managed the HR, Recruitment, Facilities and Organisation Effectiveness &amp; Performance teams.</wd:Description>
+                                </wd:Experience_Data>
+                                <wd:Experience_Data>
+                                    <wd:Company_Reference>
+                                        <wd:ID wd:type="WID">739658cafb46100fb251a314eb1f1ad5</wd:ID>
+                                        <wd:ID wd:type="Job_History_Company_ID">JOB_HISTORY_COMPANY-16-162</wd:ID>
+                                    </wd:Company_Reference>
+                                    <wd:Company_Name>BP</wd:Company_Name>
+                                    <wd:Title>Sr. Director, HR - EMEA</wd:Title>
+                                    <wd:Location>Berlin</wd:Location>
+                                    <wd:Start_Month>7</wd:Start_Month>
+                                    <wd:Start_Year>1994</wd:Start_Year>
+                                    <wd:End_Month>10</wd:End_Month>
+                                    <wd:End_Year>2001</wd:End_Year>
+                                    <wd:Currently_Work_Here>0</wd:Currently_Work_Here>
+                                    <wd:Description>Sr. Director, HR – Europe, Middle East &amp; Africa, reporting to SVP Human Resources
+
+•	As part of the EMEA Management Team, responsible for the formulation of business strategy and execution of business plans.
+•	Drove the delivery of a comprehensive HR service (organisation design, recruitment, induction, training, development, performance management, engagement, reward, etc.) across 22 countries. 
+•	Introduced a balanced scorecard methodology for the EMEA business which enabled the management team to align on goals, strategies and actions as well as track progress.
+•	Managed the HR implications associated with 3 significant reorganisations.
+•	Led the HR due diligence for two acquisitions
+•	Owned the HR-related activities associated with opening up 10 new legal entities and offices. This enabled a timely local presence in identified growth markets.
+•	Created and implemented the global talent management and succession planning program. This enabled the company to identify and develop the top 30 high performance, high potential employees earmarked as future leaders.
+•	Designed and implemented the global management development program.</wd:Description>
+                                </wd:Experience_Data>
+                                <wd:Education_Data>
+                                    <wd:School_Reference>
+                                        <wd:ID wd:type="WID">2212e4a684fa4bbb9bd1f055721fae37</wd:ID>
+                                        <wd:ID wd:type="School_ID">London_South_Bank_University</wd:ID>
+                                    </wd:School_Reference>
+                                    <wd:School_Name>London South Bank University</wd:School_Name>
+                                    <wd:Degree_Reference>
+                                        <wd:ID wd:type="WID">61383c9b1d094d44a73166ad39caebce</wd:ID>
+                                        <wd:ID wd:type="Degree_ID">MBA</wd:ID>
+                                    </wd:Degree_Reference>
+                                    <wd:Field_of_Study_Reference>
+                                        <wd:ID wd:type="WID">3a2c9a7a0e204448b2f19895ee2e92b4</wd:ID>
+                                        <wd:ID wd:type="Field_Of_Study_ID">HUMAN_DEVELOPMENT</wd:ID>
+                                    </wd:Field_of_Study_Reference>
+                                </wd:Education_Data>
+                                <wd:Education_Data>
+                                    <wd:School_Reference>
+                                        <wd:ID wd:type="WID">55398b8670734b1aa842739d8e7ad779</wd:ID>
+                                        <wd:ID wd:type="School_ID">University_Of_Leeds</wd:ID>
+                                    </wd:School_Reference>
+                                    <wd:School_Name>University of Leeds</wd:School_Name>
+                                    <wd:Degree_Reference>
+                                        <wd:ID wd:type="WID">13aaf6ceb1e2445b9c18923a8539dc23</wd:ID>
+                                        <wd:ID wd:type="Degree_ID">B_A</wd:ID>
+                                    </wd:Degree_Reference>
+                                    <wd:Field_of_Study_Reference>
+                                        <wd:ID wd:type="WID">87a90f046764408d8860db20c966c45a</wd:ID>
+                                        <wd:ID wd:type="Field_Of_Study_ID">300.2</wd:ID>
+                                    </wd:Field_of_Study_Reference>
+                                </wd:Education_Data>
+                                <wd:Language_Data>
+                                    <wd:Language_Reference>
+                                        <wd:ID wd:type="WID">bcdba4a67d8449f9a1c4901b3fffa897</wd:ID>
+                                        <wd:ID wd:type="Language_ID">German</wd:ID>
+                                    </wd:Language_Reference>
+                                    <wd:Language>
+                                        <wd:Native>0</wd:Native>
+                                        <wd:Language_Ability>
+                                            <wd:Language_Ability_Data>
+                                                <wd:Language_Proficiency_Reference>
+                                                    <wd:ID wd:type="WID">d76547fac38d479282925b73b672dad0</wd:ID>
+                                                    <wd:ID wd:type="Language_Proficiency_ID">4_Advanced</wd:ID>
+                                                </wd:Language_Proficiency_Reference>
+                                                <wd:Language_Ability_Type_Reference>
+                                                    <wd:ID wd:type="WID">c5054e47af3249eb8c22bdcb101c1e70</wd:ID>
+                                                    <wd:ID wd:type="Language_Ability_Type_ID">Overall</wd:ID>
+                                                </wd:Language_Ability_Type_Reference>
+                                            </wd:Language_Ability_Data>
+                                        </wd:Language_Ability>
+                                    </wd:Language>
+                                </wd:Language_Data>
+                            </wd:Resume_Data>
+                        </wd:Job_Application_Data>
+                        <wd:Prospect_Data>
+                            <wd:Prospect>1</wd:Prospect>
+                            <wd:Confidential>0</wd:Confidential>
+                            <wd:Referral_Consent_Given>0</wd:Referral_Consent_Given>
+                            <wd:Level_Reference>
+                                <wd:ID wd:type="WID">0b778018b3b44ca3959e498041865645</wd:ID>
+                                <wd:ID wd:type="Management_Level_ID">5_Director</wd:ID>
+                            </wd:Level_Reference>
+                            <wd:Prospect_Status_Reference>
+                                <wd:ID wd:type="WID">5525f7a7315c100d833c147951cf0e83</wd:ID>
+                                <wd:ID wd:type="Prospect_Status_ID">Nurturing</wd:ID>
+                            </wd:Prospect_Status_Reference>
+                            <wd:Prospect_Type_Reference>
+                                <wd:ID wd:type="WID">5670edefc552100dc66304f2426f031f</wd:ID>
+                                <wd:ID wd:type="Prospect_Type_ID">Potential_candidate</wd:ID>
+                            </wd:Prospect_Type_Reference>
+                            <wd:Source_Reference>
+                                <wd:ID wd:type="WID">58ec81dd9b89106683eca5c412210394</wd:ID>
+                                <wd:ID wd:type="Applicant_Source_ID">Conference</wd:ID>
+                            </wd:Source_Reference>
+                            <wd:Added_By_Worker_Reference>
+                                <wd:ID wd:type="WID">3aa5550b7fe348b98d7b5741afc65534</wd:ID>
+                                <wd:ID wd:type="Employee_ID">21001</wd:ID>
+                            </wd:Added_By_Worker_Reference>
+                            <wd:Resume_Data>
+                                <wd:Summary>A senior, commercially aware, international HR generalist with strategic and operational responsibility for the full spectrum of HR activity. Exceptional planning and delivery skills. A track record of delivering through ensuring HR
+strategy and plans are aligned with business priorities. Strong interpersonal and influencing skills combined with
+and an energetic, “can do” attitude.</wd:Summary>
+                                <wd:Skill_Data>
+                                    <wd:Skill_Name>HR Policies</wd:Skill_Name>
+                                </wd:Skill_Data>
+                                <wd:Skill_Data>
+                                    <wd:Skill_Name>Compensation &amp; Benefits Programs</wd:Skill_Name>
+                                </wd:Skill_Data>
+                                <wd:Skill_Data>
+                                    <wd:Skill_Name>Workforce Planning</wd:Skill_Name>
+                                </wd:Skill_Data>
+                                <wd:Skill_Data>
+                                    <wd:Skill_Name>HR Leadership</wd:Skill_Name>
+                                </wd:Skill_Data>
+                                <wd:Skill_Data>
+                                    <wd:Skill_Name>Leadership</wd:Skill_Name>
+                                </wd:Skill_Data>
+                                <wd:Skill_Data>
+                                    <wd:Skill_Name>Management</wd:Skill_Name>
+                                </wd:Skill_Data>
+                                <wd:Experience_Data>
+                                    <wd:Company_Reference>
+                                        <wd:ID wd:type="WID">739658cafb46100fb251a314eb1f1ad5</wd:ID>
+                                        <wd:ID wd:type="Job_History_Company_ID">JOB_HISTORY_COMPANY-16-162</wd:ID>
+                                    </wd:Company_Reference>
+                                    <wd:Company_Name>BP</wd:Company_Name>
+                                    <wd:Title>Sr. Director, HR - EMEA</wd:Title>
+                                    <wd:Location>Berlin</wd:Location>
+                                    <wd:Start_Month>7</wd:Start_Month>
+                                    <wd:Start_Year>1994</wd:Start_Year>
+                                    <wd:End_Month>10</wd:End_Month>
+                                    <wd:End_Year>2001</wd:End_Year>
+                                    <wd:Currently_Work_Here>0</wd:Currently_Work_Here>
+                                    <wd:Description>Sr. Director, HR – Europe, Middle East &amp; Africa, reporting to SVP Human Resources
+
+•	As part of the EMEA Management Team, responsible for the formulation of business strategy and execution of business plans.
+•	Drove the delivery of a comprehensive HR service (organisation design, recruitment, induction, training, development, performance management, engagement, reward, etc.) across 22 countries. 
+•	Introduced a balanced scorecard methodology for the EMEA business which enabled the management team to align on goals, strategies and actions as well as track progress.
+•	Managed the HR implications associated with 3 significant reorganisations.
+•	Led the HR due diligence for two acquisitions
+•	Owned the HR-related activities associated with opening up 10 new legal entities and offices. This enabled a timely local presence in identified growth markets.
+•	Created and implemented the global talent management and succession planning program. This enabled the company to identify and develop the top 30 high performance, high potential employees earmarked as future leaders.
+•	Designed and implemented the global management development program.</wd:Description>
+                                </wd:Experience_Data>
+                                <wd:Experience_Data>
+                                    <wd:Company_Reference>
+                                        <wd:ID wd:type="WID">739658cafb46100fb23cfc0147bf1ad0</wd:ID>
+                                        <wd:ID wd:type="Job_History_Company_ID">JOB_HISTORY_COMPANY-16-161</wd:ID>
+                                    </wd:Company_Reference>
+                                    <wd:Company_Name>BlueCrest Capital Management, LLP</wd:Company_Name>
+                                    <wd:Title>Group HR Director</wd:Title>
+                                    <wd:Location>Madrid, Spain</wd:Location>
+                                    <wd:Start_Month>11</wd:Start_Month>
+                                    <wd:Start_Year>2001</wd:Start_Year>
+                                    <wd:End_Month>12</wd:End_Month>
+                                    <wd:End_Year>2004</wd:End_Year>
+                                    <wd:Currently_Work_Here>0</wd:Currently_Work_Here>
+                                    <wd:Description>Group HR Director, reporting to Deputy CEO
+
+•	Recruited to implement comprehensive HR services (organisation design, recruitment, induction, training, development, performance management, engagement, reward, etc.) across the business.
+•	Advisor to the Remuneration Committee. Initiative included a new equity plan for the US, improved benefits coverage to enhance the ability to attract and retain top talent in a hot market, and market competitive executive compensation.
+•	Successfully managed a reorganisation entailing statutory collective consultation with employee representatives. No appeals, no tribunal proceedings.
+•	Project-managed the relocation of the HQ (c380 employees) to a new 50,000 sq ft property. £2.2m budget. Delivered on time and within budget.
+•	Led the HR due diligence in to, and post-acquisition integration of 120 employees. Also led the HR due diligence on two target companies where a “no go” decision was made.
+•	Managed the HR, Recruitment, Facilities and Organisation Effectiveness &amp; Performance teams.</wd:Description>
+                                </wd:Experience_Data>
+                                <wd:Experience_Data>
+                                    <wd:Company_Reference>
+                                        <wd:ID wd:type="WID">739658cafb46100fb22a526e59cf1ac2</wd:ID>
+                                        <wd:ID wd:type="Job_History_Company_ID">JOB_HISTORY_COMPANY-16-160</wd:ID>
+                                    </wd:Company_Reference>
+                                    <wd:Company_Name>Unilever</wd:Company_Name>
+                                    <wd:Title>HR Director</wd:Title>
+                                    <wd:Location>Europe, Middle East &amp; Africa</wd:Location>
+                                    <wd:Start_Month>2</wd:Start_Month>
+                                    <wd:Start_Year>2005</wd:Start_Year>
+                                    <wd:End_Month>0</wd:End_Month>
+                                    <wd:End_Year>0</wd:End_Year>
+                                    <wd:Currently_Work_Here>1</wd:Currently_Work_Here>
+                                    <wd:Description>HR Director – Europe, Middle East &amp; Africa, reporting to HR leader for the Global Field Organisation
+
+•	As part of the EMEA Leadership Team, responsible for the formulation of business strategy and execution of business plans.
+•	Created the 2014-17 People Plan.
+•	Drove the delivery of a comprehensive HR service (organisation design, recruitment, induction, training, development, performance management, engagement, reward, etc.) across 17 countries. 
+•	Part of the working party that has reviewed and improved key HR processes e.g. learning and development needs analysis and fulfilment, performance appraisal, succession planning, high performance/high potential programs, etc.
+•	Recommended and implemented a new “cadence” for EMEA Leadership Team meetings and interactions.
+•	Designed and introduced a sales performance management process designed to maximise productivity.
+•	Deployed a high performance team assessment program.
+•	Created and introduced a global accelerated onboarding program for senior executives.</wd:Description>
+                                </wd:Experience_Data>
+                                <wd:Education_Data>
+                                    <wd:School_Reference>
+                                        <wd:ID wd:type="WID">55398b8670734b1aa842739d8e7ad779</wd:ID>
+                                        <wd:ID wd:type="School_ID">University_Of_Leeds</wd:ID>
+                                    </wd:School_Reference>
+                                    <wd:School_Name>University of Leeds</wd:School_Name>
+                                    <wd:First_Year_Attended>0</wd:First_Year_Attended>
+                                    <wd:Last_Year_Attended>0</wd:Last_Year_Attended>
+                                    <wd:Degree_Reference>
+                                        <wd:ID wd:type="WID">13aaf6ceb1e2445b9c18923a8539dc23</wd:ID>
+                                        <wd:ID wd:type="Degree_ID">B_A</wd:ID>
+                                    </wd:Degree_Reference>
+                                    <wd:Field_of_Study_Reference>
+                                        <wd:ID wd:type="WID">87a90f046764408d8860db20c966c45a</wd:ID>
+                                        <wd:ID wd:type="Field_Of_Study_ID">300.2</wd:ID>
+                                    </wd:Field_of_Study_Reference>
+                                </wd:Education_Data>
+                                <wd:Education_Data>
+                                    <wd:School_Reference>
+                                        <wd:ID wd:type="WID">2212e4a684fa4bbb9bd1f055721fae37</wd:ID>
+                                        <wd:ID wd:type="School_ID">London_South_Bank_University</wd:ID>
+                                    </wd:School_Reference>
+                                    <wd:School_Name>London South Bank University</wd:School_Name>
+                                    <wd:First_Year_Attended>0</wd:First_Year_Attended>
+                                    <wd:Last_Year_Attended>0</wd:Last_Year_Attended>
+                                    <wd:Degree_Reference>
+                                        <wd:ID wd:type="WID">61383c9b1d094d44a73166ad39caebce</wd:ID>
+                                        <wd:ID wd:type="Degree_ID">MBA</wd:ID>
+                                    </wd:Degree_Reference>
+                                    <wd:Field_of_Study_Reference>
+                                        <wd:ID wd:type="WID">3a2c9a7a0e204448b2f19895ee2e92b4</wd:ID>
+                                        <wd:ID wd:type="Field_Of_Study_ID">HUMAN_DEVELOPMENT</wd:ID>
+                                    </wd:Field_of_Study_Reference>
+                                </wd:Education_Data>
+                                <wd:Language_Data>
+                                    <wd:Language_Reference>
+                                        <wd:ID wd:type="WID">bcdba4a67d8449f9a1c4901b3fffa897</wd:ID>
+                                        <wd:ID wd:type="Language_ID">German</wd:ID>
+                                    </wd:Language_Reference>
+                                    <wd:Language>
+                                        <wd:Native>0</wd:Native>
+                                        <wd:Language_Ability>
+                                            <wd:Language_Ability_Data>
+                                                <wd:Language_Proficiency_Reference>
+                                                    <wd:ID wd:type="WID">d76547fac38d479282925b73b672dad0</wd:ID>
+                                                    <wd:ID wd:type="Language_Proficiency_ID">4_Advanced</wd:ID>
+                                                </wd:Language_Proficiency_Reference>
+                                                <wd:Language_Ability_Type_Reference>
+                                                    <wd:ID wd:type="WID">c5054e47af3249eb8c22bdcb101c1e70</wd:ID>
+                                                    <wd:ID wd:type="Language_Ability_Type_ID">Overall</wd:ID>
+                                                </wd:Language_Ability_Type_Reference>
+                                            </wd:Language_Ability_Data>
+                                        </wd:Language_Ability>
+                                    </wd:Language>
+                                </wd:Language_Data>
+                            </wd:Resume_Data>
+                        </wd:Prospect_Data>
+                        <wd:Candidate_Pool_Data>
+                            <wd:Candidate_Pool_Membership_Data>
+                                <wd:Static_Candidate_Pool_Reference>
+                                    <wd:ID wd:type="WID">b449c89756ce102fef3797610322818e</wd:ID>
+                                    <wd:ID wd:type="Candidate_Pool_ID">RECRUITING_POOL-16-1</wd:ID>
+                                </wd:Static_Candidate_Pool_Reference>
+                                <wd:Readiness_Status_Reference>
+                                    <wd:ID wd:type="WID">7331e592e1fa011479cb29174c3cac00</wd:ID>
+                                    <wd:ID wd:type="Readiness_Status_ID">CANDIDATE_READINESS_STATUS-16-1</wd:ID>
+                                </wd:Readiness_Status_Reference>
+                            </wd:Candidate_Pool_Membership_Data>
+                        </wd:Candidate_Pool_Data>
+                    </wd:Candidate_Data>
+                </wd:Candidate>
+            </wd:Response_Data>
+        </wd:Get_Candidates_Response>
+    </env:Body>
+</env:Envelope>

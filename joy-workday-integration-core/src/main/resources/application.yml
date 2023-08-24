@@ -1,0 +1,18 @@
+server:
+   port: 9002
+   
+joy:
+   integration:
+      api:
+         workday:
+            soap:
+               uri: https://impl-services1.wd12.myworkday.com/ccx/service/ust_dpt1/Recruiting/v41.0
+               username: ISU_UST@ust_dpt1
+               password: Ust1234567!
+               schema-location: classpath:schema.xsd
+               truststore-location: classpath:workday-soap.jks
+               truststore-secret: secret
+               #uri: https://wd2-impl-services1.workday.com/ccx/service/bayada9/Recruiting/v39.0
+               #username: ISU_Joy@bayada9
+               #password: Bayada9=Joy99
+               #schema-location: classpath:schema.xsd
